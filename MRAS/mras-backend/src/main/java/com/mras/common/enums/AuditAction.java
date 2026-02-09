@@ -1,0 +1,30 @@
+package com.mras.common.enums;
+
+public enum AuditAction {
+    LOGIN,
+    REGISTER,
+
+    // Users
+    VIEW_USER,
+    UPDATE_USER,
+    RESET_PASSWORD,
+
+    VIEW_PATIENT,
+    CREATE_PATIENT,
+    UPDATE_PATIENT,
+	UPDATE_PATIENT_STATUS,
+
+    VIEW_RECORD,
+    CREATE_RECORD,
+    UPDATE_RECORD,
+	UPDATE_RECORD_STATUS,
+
+    // Access grants
+    GRANT_ACCESS,
+    REVOKE_ACCESS,
+
+    UPLOAD_FILE,
+    DOWNLOAD_FILE,
+    EXPORT_RECORD_PDF,
+    DELETE_FILE
+}
