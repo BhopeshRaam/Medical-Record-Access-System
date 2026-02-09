@@ -67,9 +67,21 @@ and grants access based on role permissions.
 
 Project Structure
 
-MRAS │ ├── backend │ ├── controller │ ├── service │ ├── repository │ ├──
-model │ └── config │ └── frontend ├── components ├── pages ├── api └──
-assets
+Medical-Record-Access-System/
+├── mras-backend/
+│   ├── src/
+│   ├── pom.xml
+│   ├── .gitignore
+│
+├── mras-frontend/
+│   ├── src/
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── .gitignore
+│
+├── README.md
+
 
 ------------------------------------------------------------------------
 
